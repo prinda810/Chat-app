@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef} from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
 import EmojiPicker from "emoji-picker-react";
-import "./App.css"; // Import the CSS file
+import "./App.css"; 
 
 
 function Chat({ socket, username, room }) {
